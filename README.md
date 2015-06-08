@@ -1,0 +1,1 @@
+# UISegmentedControl_IconAndText
