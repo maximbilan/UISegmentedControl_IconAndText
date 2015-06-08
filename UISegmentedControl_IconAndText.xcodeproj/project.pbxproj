@@ -14,6 +14,7 @@
 		6D918E6E1B259ADD00FE8183 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D918E6D1B259ADD00FE8183 /* Images.xcassets */; };
 		6D918E711B259ADD00FE8183 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D918E6F1B259ADD00FE8183 /* LaunchScreen.xib */; };
 		6D918E7D1B259ADD00FE8183 /* UISegmentedControl_IconAndTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D918E7C1B259ADD00FE8183 /* UISegmentedControl_IconAndTextTests.m */; };
+		6D918E881B259B5600FE8183 /* UIImage+UISegmentedControlIconAndText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D918E871B259B5600FE8183 /* UIImage+UISegmentedControlIconAndText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6D918E761B259ADD00FE8183 /* UISegmentedControl_IconAndTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISegmentedControl_IconAndTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D918E7B1B259ADD00FE8183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D918E7C1B259ADD00FE8183 /* UISegmentedControl_IconAndTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISegmentedControl_IconAndTextTests.m; sourceTree = "<group>"; };
+		6D918E861B259B5600FE8183 /* UIImage+UISegmentedControlIconAndText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UISegmentedControlIconAndText.h"; sourceTree = "<group>"; };
+		6D918E871B259B5600FE8183 /* UIImage+UISegmentedControlIconAndText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UISegmentedControlIconAndText.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				6D918E651B259ADD00FE8183 /* AppDelegate.m */,
 				6D918E671B259ADD00FE8183 /* ViewController.h */,
 				6D918E681B259ADD00FE8183 /* ViewController.m */,
+				6D918E861B259B5600FE8183 /* UIImage+UISegmentedControlIconAndText.h */,
+				6D918E871B259B5600FE8183 /* UIImage+UISegmentedControlIconAndText.m */,
 				6D918E6A1B259ADD00FE8183 /* Main.storyboard */,
 				6D918E6D1B259ADD00FE8183 /* Images.xcassets */,
 				6D918E6F1B259ADD00FE8183 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				6D918E691B259ADD00FE8183 /* ViewController.m in Sources */,
 				6D918E661B259ADD00FE8183 /* AppDelegate.m in Sources */,
+				6D918E881B259B5600FE8183 /* UIImage+UISegmentedControlIconAndText.m in Sources */,
 				6D918E631B259ADD00FE8183 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +424,7 @@
 				6D918E821B259ADD00FE8183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D918E831B259ADD00FE8183 /* Build configuration list for PBXNativeTarget "UISegmentedControl_IconAndTextTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				6D918E851B259ADD00FE8183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
