@@ -15,6 +15,9 @@
 		6D918E711B259ADD00FE8183 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D918E6F1B259ADD00FE8183 /* LaunchScreen.xib */; };
 		6D918E7D1B259ADD00FE8183 /* UISegmentedControl_IconAndTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D918E7C1B259ADD00FE8183 /* UISegmentedControl_IconAndTextTests.m */; };
 		6D918E881B259B5600FE8183 /* UIImage+UISegmentedControlIconAndText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D918E871B259B5600FE8183 /* UIImage+UISegmentedControlIconAndText.m */; };
+		6D918E8E1B259D7B00FE8183 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D918E8B1B259D7B00FE8183 /* star.png */; };
+		6D918E8F1B259D7B00FE8183 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D918E8C1B259D7B00FE8183 /* star@2x.png */; };
+		6D918E901B259D7B00FE8183 /* star@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D918E8D1B259D7B00FE8183 /* star@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		6D918E7C1B259ADD00FE8183 /* UISegmentedControl_IconAndTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISegmentedControl_IconAndTextTests.m; sourceTree = "<group>"; };
 		6D918E861B259B5600FE8183 /* UIImage+UISegmentedControlIconAndText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UISegmentedControlIconAndText.h"; sourceTree = "<group>"; };
 		6D918E871B259B5600FE8183 /* UIImage+UISegmentedControlIconAndText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UISegmentedControlIconAndText.m"; sourceTree = "<group>"; };
+		6D918E8B1B259D7B00FE8183 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		6D918E8C1B259D7B00FE8183 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		6D918E8D1B259D7B00FE8183 /* star@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,9 @@
 		6D918E5F1B259ADD00FE8183 /* UISegmentedControl_IconAndText */ = {
 			isa = PBXGroup;
 			children = (
+				6D918E8B1B259D7B00FE8183 /* star.png */,
+				6D918E8C1B259D7B00FE8183 /* star@2x.png */,
+				6D918E8D1B259D7B00FE8183 /* star@3x.png */,
 				6D918E641B259ADD00FE8183 /* AppDelegate.h */,
 				6D918E651B259ADD00FE8183 /* AppDelegate.m */,
 				6D918E671B259ADD00FE8183 /* ViewController.h */,
@@ -204,7 +213,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D918E8F1B259D7B00FE8183 /* star@2x.png in Resources */,
 				6D918E6C1B259ADD00FE8183 /* Main.storyboard in Resources */,
+				6D918E8E1B259D7B00FE8183 /* star.png in Resources */,
+				6D918E901B259D7B00FE8183 /* star@3x.png in Resources */,
 				6D918E711B259ADD00FE8183 /* LaunchScreen.xib in Resources */,
 				6D918E6E1B259ADD00FE8183 /* Images.xcassets in Resources */,
 			);

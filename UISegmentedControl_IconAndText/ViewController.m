@@ -8,7 +8,11 @@
 
 #import "ViewController.h"
 
+#import "UIImage+UISegmentedControlIconAndText.h"
+
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
 
 @end
 
@@ -17,6 +21,11 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+	[self.segmentedControl setImage:[UIImage imageFromImage:[UIImage imageNamed:@"star"]
+													 string:@"First"
+													   font:[UIFont systemFontOfSize:15]
+													  color:[UIColor clearColor]] forSegmentAtIndex:0];
 }
 
 - (void)didReceiveMemoryWarning {
