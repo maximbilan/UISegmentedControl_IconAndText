@@ -20,17 +20,11 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 	
 	[self.segmentedControl setImage:[UIImage imageFromImage:[UIImage imageNamed:@"star"]
 													 string:@"First"
 													   font:[UIFont systemFontOfSize:15]
 													  color:[UIColor clearColor]] forSegmentAtIndex:0];
-}
-
-- (void)didReceiveMemoryWarning {
-	[super didReceiveMemoryWarning];
-	// Dispose of any resources that can be recreated.
 }
 
 @end
