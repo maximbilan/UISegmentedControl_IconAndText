@@ -7,7 +7,7 @@ Simple category for adding icon and text together to default UISegmentedControl.
 <pre>
 [self.segmentedControl setImage:[UIImage imageFromImage:[UIImage imageNamed:@"star"]
 												 string:@"First"
-													 font:[UIFont systemFontOfSize:15]
+												   font:[UIFont systemFontOfSize:15]
 													color:[UIColor clearColor]] forSegmentAtIndex:0];
 </pre>
 ## Implementation
