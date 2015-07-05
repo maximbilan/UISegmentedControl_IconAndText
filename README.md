@@ -1,6 +1,6 @@
 # Icon and text in UISegmentedControl
 
-Simple category for adding icon and text together to default UISegmentedControl.
+Simple category for adding icon and text together to default <i>UISegmentedControl</i>.
 
 ![alt tag](https://raw.github.com/maximbilan/UISegmentedControl_IconAndText/master/img/img1.png)
 ## How to use
