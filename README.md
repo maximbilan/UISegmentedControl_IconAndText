@@ -5,10 +5,7 @@ Simple category for adding icon and text together to default <i>UISegmentedContr
 ![alt tag](https://raw.github.com/maximbilan/UISegmentedControl_IconAndText/master/img/img1.png)
 ## Using
 <pre>
-[self.segmentedControl setImage:[UIImage imageFromImage:[UIImage imageNamed:@"star"]
-												 string:@"First"
-												   font:[UIFont systemFontOfSize:15]
-												  color:[UIColor clearColor]] forSegmentAtIndex:0];
+[self.segmentedControl setImage:[UIImage imageFromImage:[UIImage imageNamed:@"star"] string:@"First" font:[UIFont color:[UIColor clearColor]] forSegmentAtIndex:0];
 </pre>
 ## Implementation
 <pre>
